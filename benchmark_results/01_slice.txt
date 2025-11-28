@@ -1,0 +1,12 @@
+goos: linux
+goarch: amd64
+pkg: github.com/ossan-dev/go-bfs/bfs
+cpu: 13th Gen Intel(R) Core(TM) i7-1355U
+BenchmarkWalkFromNode-12    	  864267	      1257 ns/op	     288 B/op	      15 allocs/op
+BenchmarkWalkFromNode-12    	 1000000	      1268 ns/op	     288 B/op	      15 allocs/op
+BenchmarkWalkFromNode-12    	  892107	      1341 ns/op	     288 B/op	      15 allocs/op
+BenchmarkWalkFromNode-12    	  746683	      1392 ns/op	     288 B/op	      15 allocs/op
+BenchmarkWalkFromNode-12    	  922279	      1423 ns/op	     288 B/op	      15 allocs/op
+BenchmarkWalkFromNode-12    	  780427	      1409 ns/op	     288 B/op	      15 allocs/op
+PASS
+ok  	github.com/ossan-dev/go-bfs/bfs	74.459s
